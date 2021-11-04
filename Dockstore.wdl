@@ -10,7 +10,7 @@ task picard_help {
     }
     
     runtime {
-        docker: "distroless_test"
+        docker: "quay.io/sidwekhande/distroless-test:v1.0.0"
     }
 }
 
