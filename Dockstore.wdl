@@ -6,7 +6,7 @@ task picard_help {
     }
     
     output {
-        File output = stdout()
+        File f_output = stdout()
     }
     
     runtime {
