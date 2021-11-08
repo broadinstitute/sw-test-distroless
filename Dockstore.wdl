@@ -6,11 +6,11 @@ task picard_help {
     }
     
     output {
-        File output = stdout()
+        File f_output = stdout()
     }
     
     runtime {
-        docker: "distroless_test"
+        docker: "quay.io/sidwekhande/distroless-test:v1.0.0"
     }
 }
 
